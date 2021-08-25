@@ -1,0 +1,17 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>MyModel</DefaultName>
+    <Name>Basic Data Repository</Name>
+    <Description>Creates standard Repository class and interface for a given model class</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+	<Icon>__TemplateIcon.ico</Icon>    
+  </TemplateData>
+  <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$modelname$" Value="$fileinputname$"/>  
+    </CustomParameters>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$/$fileinputname$Repository.cs" ReplaceParameters="true">Repository.cs</ProjectItem>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$/I$fileinputname$Repository.cs" ReplaceParameters="true">IRepository.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
