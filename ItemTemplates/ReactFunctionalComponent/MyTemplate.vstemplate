@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <DefaultName>Component.jsx</DefaultName>
+    <Name>ReactJS Functional Component</Name>
+    <Description>Basic ReactJS functional component</Description>
+    <TemplateGroupID>AspNetCore</TemplateGroupID>
+	<ProjectType>CSharp</ProjectType>
+	<ProjectSubType></ProjectSubType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>    
+  </TemplateData>
+  <TemplateContent>
+    <CustomParameters>
+      <CustomParameter Name="$componentname$" Value="$fileinputname$"/>  
+    </CustomParameters>
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.jsx" ReplaceParameters="true">Component.jsx</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

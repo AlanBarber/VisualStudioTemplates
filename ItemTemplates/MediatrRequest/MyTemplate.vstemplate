@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <DefaultName>MediatrService</DefaultName>
-    <Name>Mediatr Service</Name>
+    <DefaultName>MediatrRequest</DefaultName>
+    <Name>MediatR Request / Response</Name>
     <Description>Creates Mediatr Request, Response, and Handler classes</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>10</SortOrder>
